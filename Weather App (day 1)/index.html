@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weatther App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter city name " spellcheck="false" />
+        <button><img src="images/search.png" alt="search" /></button>
+      </div>
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <div class="weather">
+        <div class="climate">
+        <img src="images/rain.png" class="weather-icon" />
+        <div class="temp1">
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">New York</h2>
+        <h2 class="country">New York</h2>
+          </div>
+        </div>
+
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" alt="" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" alt="" />
+            <div>
+              <p class="wind">50 km/h</p>
+              <p>wind speed</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/feelsLike.png" alt="" />
+            <div>
+              <p class="feelsLike">50 m</p>
+              <p>Feels Like</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/visibility.png" alt="" />
+            <div>
+              <p class="visibility">50 m</p>
+              <p>visibility</p>
+            </div>
+          </div>
+          <div class="col">
+            <img id="sun1" src="images/sunrise2.png" alt="" />
+            <div>
+              <p class="sunrise">12:00 pm</p>
+              <p>sunrise</p>
+            </div>
+          </div>
+          <div class="col">
+            <img id="sun2" src="images/sunset2.png" alt="" />
+            <div>
+              <p class="sunset">50 km/h</p>
+              <p>sunset</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+  </body>
+</html>
