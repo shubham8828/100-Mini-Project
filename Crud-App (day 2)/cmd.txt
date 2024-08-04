@@ -1,0 +1,13 @@
+npm create vite@latest client
+cd client
+npm install or npm i
+npm run dev
+
+
+# Server 
+create folder server
+cd server
+npm init
+
+npm i express mongoose body-parser dotenv cors
+npm i --save-dev nodemon
